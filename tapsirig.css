@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    width: 960px;
+    margin: 0 auto;
+    background-color: rgba(215, 215, 215, 0.904);
+  }
+
+  .section1{
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    
+  }
+  .div1{
+    margin-left: 10px;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(10, 123, 123);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  ul{
+    display: flex;
+    list-style-type: none;
+    text-transform: capitalize;
+
+  }
+  ul li{
+    padding:0 10px;
+  }
+  
+  
+  a{
+    text-decoration: none;
+    color: inherit;
+  }
+  a:hover{
+    color: rgb(10, 123, 123);
+
+  }
+
+  .section2{
+   margin: 0 auto;
+   margin-top: 20px;
+   width:640px ;
+   display: flex;
+   justify-content:space-between;
+  }
+  .info{
+   width: 420px;
+   background-color: white; 
+   padding:20px 10px;
+  }
+  
+  .info  h2{
+    padding-bottom: 20px;
+    color: rgb(10, 123, 123); ;
+  }
+   .img{
+    width: 130px;
+    height: 100px;
+    background-image: url('https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/close-up-of-cat-wearing-sunglasses-while-sitting-royalty-free-image-1571755145.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   }
+
+   .txt{
+    display: flex;
+    margin-top: 20px;
+   
+   }
+   .txt1{
+    width: 240px;
+    padding-left: 10px;
+    line-height: 1.3em;
+   }
+   .p1{
+    margin-top: 20px;
+    line-height: 1.3em;
+   }
+
+   .div2{
+    width: 200px;
+    height: 150px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .img1, .img2, .img3{
+    width: 50px;
+    height: 50px;
+  }
+
+  .imgg{
+    width: 160px;
+    display:flex;
+    justify-content: space-between;
+  }
+
+  h3{
+    color: rgb(10, 123, 123);;
+  }
+
+  .img1{
+    background-image: url('https://cdn-icons-png.flaticon.com/512/38/38401.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .img2{
+    background-image: url('https://cdn3.iconfinder.com/data/icons/inficons/512/linkedin.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .img3{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Facebook-icon-1.png/640px-Facebook-icon-1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
